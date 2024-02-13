@@ -72,4 +72,19 @@ footer .copyright {
     font-size: 14px
 }
 
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: furlex;
+    align-items: center;
+    justify-content: center;
+    background: url('img/loading.gif') center no-repeat, #000000;
+    z-index: 1000;
+}
 
+.loader::after{
+    content: "img/loading.gif";
+}
