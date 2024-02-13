@@ -16,6 +16,12 @@ header {
     margin-top: 2%;
 }
 
+header a {
+    border: 2px solid black;
+    padding: 5px; 
+    margin: 0 10px; 
+}
+
 img:first-child {
     flex: 0 0 auto;
 }
