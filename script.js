@@ -1,5 +1,4 @@
-
-window.addEventListener("load", () =>{
+window.addEventListener("load", () => {
     document.querySelector(".loader").classList.add("loader--hidden");
 });
 document.getElementById("music-toggle").addEventListener("click", function() {

@@ -53,11 +53,11 @@ h1 {
 #arrow-icon {
     width: 30px;
     height: 30px;
-    transform: rotate(180deg); /* Initially arrow pointing left */
+    transform: rotate(180deg); 
 }
 
 #arrow-icon.hide {
-    transform: rotate(0deg); /* When music player is hidden, arrow points right */
+    transform: rotate(0deg); 
 }
 
 footer {
@@ -72,7 +72,7 @@ footer .copyright {
     font-size: 14px
 }
 
-.loader{
+.loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -83,13 +83,16 @@ footer .copyright {
     justify-content: center;
     background: url('img/loading.gif') center no-repeat, #F0F0ED;
     z-index: 1000;
+    opacity: 1; 
+    visibility: visible; 
     transition: opacity 0.75s, visibility 0.75s;
 }
 
-.loader--hidden{
+.loader--hidden {
     opacity: 0;
     visibility: hidden;
 }
+
 
 .loader::after{
     content: "";
