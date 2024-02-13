@@ -78,13 +78,19 @@ footer .copyright {
     left: 0;
     width: 100vw;
     height: 100vh;
-    display: furlex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background: url('img/loading.gif') center no-repeat, #000000;
+    background: url('img/loading.gif') center no-repeat, #F0F0ED;
     z-index: 1000;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden{
+    opacity: 0;
+    visibility: hidden;
 }
 
 .loader::after{
-    content: "img/loading.gif";
+    content: "";
 }
