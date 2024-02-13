@@ -6,6 +6,16 @@ header {
     align-items: center;
 }
 
+#mainContent{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#content{
+    margin-top: 2%;
+}
+
 img:first-child {
     flex: 0 0 auto;
 }
@@ -17,7 +27,7 @@ img:last-child {
 p, h2 {
     text-align: justify;
     margin: 0 auto 20px;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 800px;
     font-family: Porsche Next, Arial Narrow, Arial, Heiti SC, SimHei, sans-serif;
 }
 
@@ -30,7 +40,7 @@ h1 {
 #music-player {
     position: fixed;
     top: 20%;
-    right: -310px; /* Initially hide the music player */
+    right: -310px; 
     transform: translateY(-50%);
     background-color: #fff;
     border-left: 1px solid #ddd;
