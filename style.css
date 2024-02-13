@@ -1,0 +1,73 @@
+header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img:first-child {
+    flex: 0 0 auto;
+}
+
+img:last-child {
+    text-align: center;
+}
+
+p, h2 {
+    text-align: justify;
+    margin: 0 auto 20px;
+    max-width: 800px; /* Adjust as needed */
+    font-family: Porsche Next, Arial Narrow, Arial, Heiti SC, SimHei, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: Porsche Next, Arial Narrow, Arial, Heiti SC, SimHei, sans-serif;
+
+}
+
+#music-player {
+    position: fixed;
+    top: 20%;
+    right: -310px; /* Initially hide the music player */
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+}
+
+#music-toggle {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#music-content {
+    padding: 10px;
+}
+
+#arrow-icon {
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg); /* Initially arrow pointing left */
+}
+
+#arrow-icon.hide {
+    transform: rotate(0deg); /* When music player is hidden, arrow points right */
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #000;
+}
+
+footer .copyright {
+    font-size: 14px
+}
